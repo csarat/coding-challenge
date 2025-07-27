@@ -177,7 +177,6 @@ def output_results(data: list, output_format: str, output_path: str = None):
         raise Exception("Unsupported output format: %s" % output_format)
 
 def main():
-    # configuration from environment variables
     source_type = "csv"
     source_path = "/Users/csarat/git/projects/coding-challenge/resources/input/test.csv"
     cleaning_strategy = "standardize_case"
